@@ -13,11 +13,10 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 300;
   line-height: 1.5;
-  color: #333;
 }
 
 a {
-  color: #fff;
+  color: #FF8C32;
 }
 
 .row {
@@ -41,8 +40,8 @@ a {
 }
 
 header {
-  background-color: #84b4b1;
-  color: #fff;
+  background-color: #06113C;
+  color: #FF8C32;
   text-align: center;
   padding: 30px 0 120px;
 }
@@ -59,7 +58,7 @@ header h1 {
 header h1 span {
   text-transform: uppercase;
   letter-spacing: 7px;
-  font-size: 25px;
+  font-size: 30px;
   line-height: 1;
 }
 header p {
@@ -196,4 +195,64 @@ header p {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+}
+
+footer {
+  background-color: #06113C;
+  color: #FF8C32;
+  text-align: center;
+  padding: 30px 0 120px;
+  font-size: 30px;
+}
+
+footer h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: 400;
+  letter-spacing:2px;
+  line-height: 0.8;
+  padding-top: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+
+footer h2 {
+  text-align: center;
+  text-transform: none;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing:2px;
+  line-height: 0.8;
+  padding-top: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+.social-icons{
+  list-style: none;
+  padding: 0;
+}
+
+.social-icons li{
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.contact-footer{
+  display: block;
+  margin-top: 10px;
+  color: #FF8C32;
+  text-decoration: none;
+}
+
+.contact-footer:hover{
+  color:rgb(255, 255, 255);
+}
+
+.copyright{
+  font-size: 9px;
+}
+
+.copyright a{
+  text-decoration: none;
 }
