@@ -93,7 +93,7 @@ $(document).ready(function() {
   $gallery.on("click", ".demo__part-back", function() {
     if (!isShowingBack()) return;
 
-    $help.html(`Check out my other <a target="blank" href="#">Works</a> Don't forget to follow me on <a target="_blank" href="https://twitter.com/WiseManMpaji">Instagram</a>`);
+    $help.html(`Check out<a target="blank" href="#">Here</a> my other works. Don't forget to follow me on <a target="_blank" href="https://twitter.com/WiseManMpaji">Instagram</a>`);
 
     setTimeout(function() {
       for (let row = 1; row <= rows; row++) {

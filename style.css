@@ -269,8 +269,10 @@ footer h2 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: linear-gradient(60deg, #5B5893, #2c2a49);
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
+
 .demo__gallery {
   width: 688px;
   height: 460px;
@@ -349,10 +351,11 @@ footer h2 {
   margin-bottom: 7px;
   font-size: 30px;
   font-family: "Yanone Kaffeesatz", sans-serif;
-  color: white;
+  color: #FF8C32;
 }
 .demo__help a {
-  color: white;
+  color:#06113C;
+  text-decoration: none;
 }
 .demo__help a:hover {
   color: #E39999;
