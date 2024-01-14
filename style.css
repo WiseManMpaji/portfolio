@@ -357,9 +357,6 @@ footer h2 {
   color:#06113C;
   text-decoration: none;
 }
-.demo__help a:hover {
-  color: #E39999;
-}
 
 .demo__part-1-1 .demo__part-back-inner {
   transform: translate(0px, 0px);
@@ -459,4 +456,75 @@ footer h2 {
 
 .show-front {
   transform: none;
+}
+
+.animation {
+  margin-top: 20px;
+  -webkit-font-smoothing: antialiased;
+  width: 100vw;
+  height: 100px;
+  position: relative;
+  background: #EEEEEE;
+  overflow: hidden;
+}
+
+.big-title {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14vw;
+  letter-spacing: -0.01em;
+  margin: 0;
+  display: block;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.big-title.front {
+  z-index: 50;
+  color: #FF8C32;
+}
+
+.centered {
+  color: #06113C;
+  position: absolute;
+  font-size: 45px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+span {
+  display: inline-block;
+}
+
+.moving {
+  -webkit-animation: animLeft 2s linear infinite;
+          animation: animLeft 2s linear infinite;
+}
+
+.clipping-container {
+  position: relative;
+  background: url("images/dp.jpg") center top no-repeat;
+  background-size: cover;
+  z-index: 20;
+  width: 30vw;
+  height: 10vw;
+  overflow: hidden;
+}
+
+@-webkit-keyframes animLeft {
+  0% {
+    transform: translate(-20%, -50%);
+  }
+  100% {
+    transform: translate(-70%, -50%);
+  }
+}
+
+@keyframes animLeft {
+  0% {
+    transform: translate(-20%, -50%);
+  }
+  100% {
+    transform: translate(-70%, -50%);
+  }
 }
