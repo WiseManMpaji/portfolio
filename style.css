@@ -503,7 +503,7 @@ span {
 
 .clipping-container {
   position: relative;
-  background: url("images/dp.jpg") center top no-repeat;
+  background-color: #06113C;
   background-size: cover;
   z-index: 20;
   width: 30vw;
